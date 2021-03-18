@@ -31,7 +31,7 @@
     
     print '</table>';
     print '<br>';
-    print 3 % 2;
+    print 1 % 2;
     
 ?>
 <?php
@@ -65,7 +65,7 @@
     if (in_array("하나", $b)) 
     {
         print "안녕하세요";
-        print array_key_exists(1, $b);
+        print array_key_exists(2, $b);
         
     }
     
@@ -87,7 +87,7 @@
     print $b2['하나'].", "; 
     print $b2['둘'].", ";  
     print $b2['셋'].", ";  
-    print $b2['합계'].", "; 
+    print $b2['합계']; 
     
 ?>
 <?php
