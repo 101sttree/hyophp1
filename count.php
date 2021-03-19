@@ -5,5 +5,5 @@
         $output .= $count.' ';    
     }
     
-    include 'count.html.php';
+    include '../count.html.php';
 ?>
