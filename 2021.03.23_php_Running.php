@@ -1,14 +1,12 @@
 <?php 
     class Entree 
     {
-        private $name;
-        protected $ingredients = array();
-        
+        private     $name;
+        protected   $ingredients = array();
         public function getName()
         {
             return $this -> name;
         }
-        
         public function __construct($name, $ingredient)
         {
             if(! is_array($ingredient))
@@ -18,13 +16,11 @@
             $this -> name = $name; 
             $this -> ingredients = $ingredient; 
         }
-        
         public function hasIngredient($ingredient) 
         {
             return in_array($ingredient, $this -> ingredients);
         }
     }
-    
     class ComboMeal extends Entree
     {
         public function __construct($name, $entrees)
@@ -38,7 +34,6 @@
                 }
             }
         }
-        
         public function hasIngredient($ingredient) 
         {
             foreach ($this-> ingredients as $entree);
