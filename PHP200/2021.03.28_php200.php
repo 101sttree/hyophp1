@@ -1,4 +1,5 @@
-<?php 
+<?php
+    phpinfo();
     //080 filter_Var() 함수로 이메일 유효성 검사하기
     /* function checkEmail($email)
     {
@@ -221,7 +222,7 @@
 ?>
 <?php 
     //089 폴더 닫기
-    $folderName = '../hyophp1/';
+    /* $folderName = '../hyophp1/';
     if(is_dir($folderName))
     {
         echo "폴더가 존재합니다.<br>";
@@ -243,7 +244,8 @@
     else
     {
         echo "폴더가 존재하지 않습니다.";
-    }
+    } */
+
 ?>	
 
 

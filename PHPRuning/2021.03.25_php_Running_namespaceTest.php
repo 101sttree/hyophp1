@@ -26,7 +26,7 @@
         }
     }
     
-    class PricedEntree extends Entree
+    /* class PricedEntree extends Entree
     {
         public function __construct($name,$ingredients) 
         {
@@ -50,7 +50,7 @@
             }
             return $cost;
         }
-    }
+    } */
     
 ?>
 <?php 

@@ -50,19 +50,19 @@
         }
     }
     
-    class PricedEntree extends Entree
+    /* class PricedEntree extends Entree
     {
         public function __construct($name,$ingredients) 
         {
             parent::__construct($name, $ingredient);
             foreach ($this->ingredients as $ingredients)
             {
-                if(! $ingredients instanceof Ingredient)
+                /* if(! $ingredients instanceof Meals\Ingredient)
                 {
                     throw new \Exception('$ingredients의 원소는
                                         Ingredient 객체여야 합니다.');
-                }
-            }
+                } */
+            /* }
         }
         
         public function getCost() 
@@ -74,7 +74,7 @@
             }
             return $cost;
         }
-    }
+    } */ 
     
 ?>
 <?php 
