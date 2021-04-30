@@ -1,5 +1,5 @@
 <?php
-    class FormHelper {
+    class FormHelper2 {
         protected $values = array();
 
         public function __construct($values = array()) {
